@@ -11,11 +11,11 @@
   <a-scene>
 
     <a-assets>
-      <img id="texture" src="pelouse_cropped.jpg">
+<a-asset-item id="loup" src="loup1.glb"></a-asset-item>
     </a-assets>
 
-    <a-box src="#texture" width="0.5" height="0.5" depth="0.5" position="0 1 -4" rotation="45 45 0">
-    </a-box>
+<a-entity gltf-model="#loup" position="0 0.5 -4" rotation="0 0 0"></a-entity>
+
     <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4">
     </a-plane>
     <a-camera></a-camera>

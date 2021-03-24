@@ -1,0 +1,174 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.3.48",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "name" : "Light",
+            "rotation" : [
+                0.16907575726509094,
+                0.7558803558349609,
+                -0.27217137813568115,
+                0.570947527885437
+            ],
+            "translation" : [
+                4.076245307922363,
+                5.903861999511719,
+                -1.0054539442062378
+            ]
+        },
+        {
+            "name" : "Camera",
+            "rotation" : [
+                0.483536034822464,
+                0.33687159419059753,
+                -0.20870360732078552,
+                0.7804827094078064
+            ],
+            "translation" : [
+                7.358891487121582,
+                4.958309173583984,
+                6.925790786743164
+            ]
+        },
+        {
+            "mesh" : 0,
+            "name" : "Model.017",
+            "rotation" : [
+                0.6238968372344971,
+                0.3327953815460205,
+                -0.3327954411506653,
+                0.6238967776298523
+            ],
+            "scale" : [
+                4.1969404220581055,
+                4.1969404220581055,
+                4.196939945220947
+            ],
+            "translation" : [
+                -0.005471289157867432,
+                0.258674293756485,
+                0.10145328938961029
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "Material.001",
+            "pbrMetallicRoughness" : {
+                "metallicFactor" : 0.40909090638160706,
+                "roughnessFactor" : 0.23181821405887604
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Model.017",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2,
+                        "COLOR_0" : 3
+                    },
+                    "indices" : 4,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 28035,
+            "max" : [
+                0.1330868899822235,
+                0.12064662575721741,
+                0.08061324059963226
+            ],
+            "min" : [
+                -0.20251314342021942,
+                -0.1288197785615921,
+                -0.07356879115104675
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 28035,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 28035,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 28035,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5123,
+            "count" : 148584,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 336420,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 336420,
+            "byteOffset" : 336420
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 224280,
+            "byteOffset" : 672840
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 448560,
+            "byteOffset" : 897120
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 297168,
+            "byteOffset" : 1345680
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 1642848,
+            "uri" : "loup2.bin"
+        }
+    ]
+}
